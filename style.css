@@ -111,6 +111,7 @@ header {
     display: block;
     width: 100%;
     height: auto;
+    animation: appear 1s ease-out;
 }
 
 .welh1 {
@@ -367,6 +368,7 @@ section {
     opacity: 0.9;
     box-shadow: 0px 4px 4px rgba(151, 151, 151, 0.25);
     border-radius: 2px;
+    animation: appear 1s ease-out;
 }
 
 .wkh1 {
