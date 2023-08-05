@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <div class="head">
+                    <div class="logo">
+                        <img id="lg" src="./img/logo.png" alt="">
+                        <div>
+                            <hr>
+                        </div>
+                        <h1 class="nl">TechGenius</h1>
+                    </div>
+                    <div>
+                        <select name="idoma" id="languague" class="idom">
+                            <option>En</option>
+                            <option>Fr</option>
+                            <option>Es</option>
+                        </select>
+                    </div>
+                </div>
+                <h1 class="tit">Sign Up</h1> 
+                <div class="conr">
+                    <div class="nm">
+                        <div class="fn">
+                            <h4 class="comp">First Name</h4>
+                        </div>
+                        <input class="name" type="text" placeholder="Hugo">
+                    </div>
+                    <div class="lnm">
+                        <div class="fn1">
+                            <h4 class="comp">Last Name</h4>
+                        </div>
+                        <input class="lnme" type="text" placeholder="Hernández">
+                    </div>
+                </div>
+                <div class="eus">
+                    <h4 class="comp">Email</h4>
+                </div>
+                <div class="email-container">
+                    <input class="con" type="email" placeholder="anexample@gmail.com">
+                </div>
+                <div class="pass"> 
+                    <div class="pl">
+                        <h4 class="comp">Password</h4>
+                    </div>
+                </div>
+                <div class="password-container">
+                    <input class="con" type="password" id="password-input" placeholder="Your Password">
+                  </div>
+            </form>
+            <div class="btne">
+                <button>Sign Up</button>
+            </div>
+            <div class="acc1">
+                <h4>Have an account?</h4>
+                <a class="compt" class="sup" id="signIn"href="#">Sign In</a>
+            </div>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <div class="head">
+                    <div class="logo">
+                        <img id="lg" src="./img/logo.png" alt="">
+                        <div>
+                            <hr>
+                        </div>
+                        <h1 class="nl">TechGenius</h1>
+                    </div>
+                    <div>
+                        <select name="idoma" id="languague" class="idom">
+                            <option>En</option>
+                            <option>Fr</option>
+                            <option>Es</option>
+                        </select>
+                    </div>
+                </div>
+                <h1 class="tit">Sign In</h1>
+                <div class="eus">
+                    <h4 class="comp">Email</h4>
+                </div>
+                <div class="email-container">
+                    <input class="con" type="email" placeholder="anexample@gmail.com">
+                </div>
+                <div class="pass"> 
+                    <div class="pl">
+                        <h4 class="comp">Password</h4>
+                    </div>
+                </div>
+                <div class="password-container">
+                    <input class="con" type="password" id="password-input" placeholder="Your Password">
+                  </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="remember-me" >
+                    <h4 class="log">Keep me logged in</h4>
+                  </div>                 
+            </form>
+            <div class="btn">
+                <button>Sign In</button>
+            </div>
+            <div class="acc">
+                <h4 class="comp">Don't have an account?</h4>
+                <a class="compt" class="sup" id="signUp" href="#">Sign Up</a>
+            </div>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <img src="/img/1.jpg" alt="" class="mov">
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <img src="img/1.jpg" alt="" class="mov">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="signin.js"></script>
+</body>
+</html>
